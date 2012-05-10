@@ -69,7 +69,6 @@
 	
 	
 	
-	
     if (cell == nil) {
         cell = [[UITableViewCell alloc] init];
 				 

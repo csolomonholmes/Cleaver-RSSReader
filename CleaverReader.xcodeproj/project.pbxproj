@@ -31,6 +31,7 @@
 		48653CEE155C70E80022DBFC /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 48653CED155C70E80022DBFC /* Default-Landscape@2x~ipad.png */; };
 		48653CF0155C70F40022DBFC /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 48653CEF155C70F40022DBFC /* Default-Portrait~ipad.png */; };
 		48653CF2155C70F80022DBFC /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 48653CF1155C70F80022DBFC /* Default-Portrait@2x~ipad.png */; };
+		48653CF4155C78420022DBFC /* cordovaTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 48653CF3155C78420022DBFC /* cordovaTransparent.png */; };
 		B2CF2D171534B7470059034E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF2D161534B7470059034E /* UIKit.framework */; };
 		B2CF2D191534B7470059034E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF2D181534B7470059034E /* Foundation.framework */; };
 		B2CF2D1B1534B7470059034E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF2D1A1534B7470059034E /* CoreGraphics.framework */; };
@@ -73,6 +74,7 @@
 		48653CED155C70E80022DBFC /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		48653CEF155C70F40022DBFC /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		48653CF1155C70F80022DBFC /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		48653CF3155C78420022DBFC /* cordovaTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cordovaTransparent.png; sourceTree = "<group>"; };
 		B2CF2D121534B7470059034E /* CleaverRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleaverRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CF2D161534B7470059034E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2CF2D181534B7470059034E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +125,7 @@
 		B2CF2D071534B7470059034E = {
 			isa = PBXGroup;
 			children = (
+				48653CF3155C78420022DBFC /* cordovaTransparent.png */,
 				48653CF1155C70F80022DBFC /* Default-Portrait@2x~ipad.png */,
 				48653CEF155C70F40022DBFC /* Default-Portrait~ipad.png */,
 				48653CED155C70E80022DBFC /* Default-Landscape@2x~ipad.png */,
@@ -272,6 +275,7 @@
 				48653CEE155C70E80022DBFC /* Default-Landscape@2x~ipad.png in Resources */,
 				48653CF0155C70F40022DBFC /* Default-Portrait~ipad.png in Resources */,
 				48653CF2155C70F80022DBFC /* Default-Portrait@2x~ipad.png in Resources */,
+				48653CF4155C78420022DBFC /* cordovaTransparent.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
