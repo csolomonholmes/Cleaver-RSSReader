@@ -1,4 +1,4 @@
-Cleaver-RSSReader is an xcode project to demonstrate Cordova "Cleaver" usage in a iOS Application.
+Cleaver-RSSReader is an xcode project to demonstrate Cordova "Cleaver" usage in an iOS Application.
 
 https://github.com/RandyMcMillan/Cleaver-RSSReader
 
