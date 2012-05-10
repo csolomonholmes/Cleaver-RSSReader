@@ -35,9 +35,9 @@
 
 @implementation ViewController
 
--(IBAction)openYahooFinance:(id)sender{
+-(IBAction)openPhoneGapFeed:(id)sender{
     
-    NewsPage = @"http://finance.yahoo.com/rss/topfinstories";
+    NewsPage = @"http://phonegap.com/feed/";
     CleaverReader *storyList = [[CleaverReader alloc] initWithNibName:nil bundle:nil];
     storyList.path = NewsPage;
     [self presentModalViewController:storyList animated:YES];
@@ -45,23 +45,15 @@
     
 }
 
--(IBAction)openWalterWilliams:(id)sender{
+-(IBAction)openJiraIssueTracker:(id)sender{
     
-    NewsPage = @"http://rss.townhall.com/columnists/WalterEWilliams";
+    NewsPage = @"https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+%3D+CB+AND+resolution+%3D+Unresolved+AND+component+%3D+iOS+ORDER+BY+priority+DESC&tempMax=1000";
     CleaverReader *storyList = [[CleaverReader alloc] initWithNibName:nil bundle:nil];
     storyList.path = NewsPage;
     [self presentModalViewController:storyList animated:YES];
     
 }
 
--(IBAction)openCNN:(id)sender{
-    
-    NewsPage = @"http://rss.cnn.com/rss/edition.rss";
-    CleaverReader *storyList = [[CleaverReader alloc] initWithNibName:nil bundle:nil];
-    storyList.path = NewsPage;
-    [self presentModalViewController:storyList animated:YES];
-
-}
 
 
 -(IBAction)openCleaverView:(id)sender{

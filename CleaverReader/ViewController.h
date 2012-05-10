@@ -27,9 +27,8 @@
 
 @interface ViewController : UIViewController
 
--(IBAction)openYahooFinance:(id)sender;
--(IBAction)openWalterWilliams:(id)sender;
--(IBAction)openCNN:(id)sender;
+-(IBAction)openPhoneGapFeed:(id)sender;
+-(IBAction)openJiraIssueTracker:(id)sender;
 -(IBAction)openCleaverView:(id)sender;
 
 @end

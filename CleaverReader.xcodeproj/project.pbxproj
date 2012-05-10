@@ -20,6 +20,7 @@
 		4800C25D155C21E600282540 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C25C155C21E600282540 /* CoreMedia.framework */; };
 		4800C25F155C21FF00282540 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C25E155C21FF00282540 /* CoreLocation.framework */; };
 		4800C265155C23EC00282540 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 4800C264155C23EC00282540 /* www */; };
+		484FFDDF155C409000B9B695 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 484FFDDE155C409000B9B695 /* button.png */; };
 		B2CF2D171534B7470059034E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF2D161534B7470059034E /* UIKit.framework */; };
 		B2CF2D191534B7470059034E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF2D181534B7470059034E /* Foundation.framework */; };
 		B2CF2D1B1534B7470059034E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF2D1A1534B7470059034E /* CoreGraphics.framework */; };
@@ -49,9 +50,10 @@
 		4800C25C155C21E600282540 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4800C25E155C21FF00282540 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4800C264155C23EC00282540 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		4800C266155C2F5D00282540 /* cleaverViewController.h */ = {isa = PBXFileReference; path = cleaverViewController.h; sourceTree = "<group>"; };
-		4800C267155C2F5D00282540 /* cleaverViewController.m */ = {isa = PBXFileReference; path = cleaverViewController.m; sourceTree = "<group>"; };
-		B2CF2D121534B7470059034E /* CleaverReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleaverReader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4800C266155C2F5D00282540 /* cleaverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cleaverViewController.h; sourceTree = "<group>"; };
+		4800C267155C2F5D00282540 /* cleaverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cleaverViewController.m; sourceTree = "<group>"; };
+		484FFDDE155C409000B9B695 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		B2CF2D121534B7470059034E /* CleaverReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleaverReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CF2D161534B7470059034E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2CF2D181534B7470059034E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B2CF2D1A1534B7470059034E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,12 +157,13 @@
 				B2CF2D2B1534B7470059034E /* ViewController.xib */,
 				B2CF2D1D1534B7470059034E /* Supporting Files */,
 			);
-			path = "CleaverReader";
+			path = CleaverReader;
 			sourceTree = "<group>";
 		};
 		B2CF2D1D1534B7470059034E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				484FFDDE155C409000B9B695 /* button.png */,
 				4800C247155C200400282540 /* Cordova.plist */,
 				B2CF2D3D1534B9880059034E /* button1.png */,
 				B2CF2D1E1534B7470059034E /* CleaverReader-Info.plist */,
@@ -186,8 +189,8 @@
 			);
 			dependencies = (
 			);
-			name = "CleaverReader";
-			productName = "CleaverReader";
+			name = CleaverReader;
+			productName = CleaverReader;
 			productReference = B2CF2D121534B7470059034E /* CleaverReader.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -228,6 +231,7 @@
 				B2CF2D3E1534B9880059034E /* button1.png in Resources */,
 				4800C248155C200400282540 /* Cordova.plist in Resources */,
 				4800C265155C23EC00282540 /* www in Resources */,
+				484FFDDF155C409000B9B695 /* button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

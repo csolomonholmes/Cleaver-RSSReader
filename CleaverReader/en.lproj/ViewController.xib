@@ -48,7 +48,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Yahoo! Finance</string>
+						<string key="IBUINormalTitle">PhoneGap Feed</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="370900331">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
@@ -61,9 +61,9 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="541480283">
+						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="161128055">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">button1.png</string>
+							<string key="NSResourceName">button.png</string>
 						</object>
 						<object class="IBUIFontDescription" key="IBUIFontDescription" id="479777871">
 							<int key="type">2</int>
@@ -81,45 +81,25 @@
 						<string key="NSFrame">{{34, 124}, {245, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="627002508"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Walter Williams Columns</string>
+						<string key="IBUINormalTitle">Jira Issue Tracker</string>
 						<reference key="IBUIHighlightedTitleColor" ref="370900331"/>
 						<reference key="IBUINormalTitleColor" ref="599056120"/>
 						<reference key="IBUINormalTitleShadowColor" ref="711188418"/>
-						<reference key="IBUINormalBackgroundImage" ref="541480283"/>
-						<reference key="IBUIFontDescription" ref="479777871"/>
-						<reference key="IBUIFont" ref="244613219"/>
-					</object>
-					<object class="IBUIButton" id="627002508">
-						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{34, 179}, {245, 37}}</string>
-						<reference key="NSSuperview" ref="774585933"/>
-						<reference key="NSWindow"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">CNN Latest News</string>
-						<reference key="IBUIHighlightedTitleColor" ref="370900331"/>
-						<reference key="IBUINormalTitleColor" ref="599056120"/>
-						<reference key="IBUINormalTitleShadowColor" ref="711188418"/>
-						<reference key="IBUINormalBackgroundImage" ref="541480283"/>
+						<reference key="IBUINormalBackgroundImage" ref="161128055"/>
 						<reference key="IBUIFontDescription" ref="479777871"/>
 						<reference key="IBUIFont" ref="244613219"/>
 					</object>
 					<object class="IBUIButton" id="973745609">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{34, 295}, {245, 77}}</string>
+						<string key="NSFrame">{{34, 185}, {245, 77}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -132,7 +112,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="370900331"/>
 						<reference key="IBUINormalTitleColor" ref="599056120"/>
 						<reference key="IBUINormalTitleShadowColor" ref="711188418"/>
-						<reference key="IBUINormalBackgroundImage" ref="541480283"/>
+						<reference key="IBUINormalBackgroundImage" ref="161128055"/>
 						<reference key="IBUIFontDescription" ref="479777871"/>
 						<reference key="IBUIFont" ref="244613219"/>
 					</object>
@@ -162,30 +142,21 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">openYahooFinance:</string>
+						<string key="label">openPhoneGapFeed:</string>
 						<reference key="source" ref="295225468"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">13</int>
+					<int key="connectionID">19</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">openWalterWilliams:</string>
+						<string key="label">openJiraIssueTracker:</string>
 						<reference key="source" ref="322774718"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">14</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">openCNN:</string>
-						<reference key="source" ref="627002508"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">15</int>
+					<int key="connectionID">20</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -222,7 +193,6 @@
 						<array class="NSMutableArray" key="children">
 							<reference ref="295225468"/>
 							<reference ref="322774718"/>
-							<reference ref="627002508"/>
 							<reference ref="973745609"/>
 						</array>
 						<reference key="parent" ref="0"/>
@@ -233,18 +203,13 @@
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">9</int>
-						<reference key="object" ref="322774718"/>
-						<reference key="parent" ref="774585933"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">10</int>
-						<reference key="object" ref="627002508"/>
-						<reference key="parent" ref="774585933"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">16</int>
 						<reference key="object" ref="973745609"/>
+						<reference key="parent" ref="774585933"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">9</int>
+						<reference key="object" ref="322774718"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 				</array>
@@ -254,7 +219,6 @@
 				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="10.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="16.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="8.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -264,7 +228,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">18</int>
+			<int key="maxID">20</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -272,21 +236,21 @@
 					<string key="className">ViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="openCNN:">id</string>
-						<string key="openWalterWilliams:">id</string>
-						<string key="openYahooFinance:">id</string>
+						<string key="openCleaverView:">id</string>
+						<string key="openJiraIssueTracker:">id</string>
+						<string key="openPhoneGapFeed:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="openCNN:">
-							<string key="name">openCNN:</string>
+						<object class="IBActionInfo" key="openCleaverView:">
+							<string key="name">openCleaverView:</string>
 							<string key="candidateClassName">id</string>
 						</object>
-						<object class="IBActionInfo" key="openWalterWilliams:">
-							<string key="name">openWalterWilliams:</string>
+						<object class="IBActionInfo" key="openJiraIssueTracker:">
+							<string key="name">openJiraIssueTracker:</string>
 							<string key="candidateClassName">id</string>
 						</object>
-						<object class="IBActionInfo" key="openYahooFinance:">
-							<string key="name">openYahooFinance:</string>
+						<object class="IBActionInfo" key="openPhoneGapFeed:">
+							<string key="name">openPhoneGapFeed:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 					</dictionary>
@@ -306,8 +270,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">button1.png</string>
-			<string key="NS.object.0">{144, 61}</string>
+			<string key="NS.key.0">button.png</string>
+			<string key="NS.object.0">{836, 252}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">1181</string>
 	</data>
