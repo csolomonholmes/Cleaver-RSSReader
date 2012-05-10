@@ -77,7 +77,10 @@
 		frame.origin.x = 10;
 		frame.origin.y = 5;
 		frame.size.height = 75;
-		frame.size.width = 300;
+        
+        CGRect viewBounds = [[UIScreen mainScreen] bounds];
+
+		frame.size.width = viewBounds.size.width * .9;
 		
 		UILabel *titleLabel = [[UILabel alloc] initWithFrame:frame];
 		titleLabel.tag = 1;
