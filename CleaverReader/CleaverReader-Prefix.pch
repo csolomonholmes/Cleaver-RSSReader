@@ -18,15 +18,18 @@
  */
 
 //
-//  MainViewController.h
-//  SenchaDeviceCDV170
 //
 //  Created by Randy McMillan on 5/9/12.
 //  Copyright OpenOSX.org 2012. All rights reserved.
 //
 
-    #import <Cordova/CDVViewController.h>
+#import <Availability.h>
 
-@interface cleaverViewController : CDVViewController
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
 
-@end
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

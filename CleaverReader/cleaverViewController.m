@@ -18,8 +18,6 @@
  */
 
 //
-//  MainViewController.h
-//  SenchaDeviceCDV170
 //
 //  Created by Randy McMillan on 5/9/12.
 //  Copyright OpenOSX.org 2012. All rights reserved.

@@ -28,8 +28,8 @@
 		B2CF2D271534B7470059034E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D261534B7470059034E /* AppDelegate.m */; };
 		B2CF2D2A1534B7470059034E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D291534B7470059034E /* ViewController.m */; };
 		B2CF2D2D1534B7470059034E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D2B1534B7470059034E /* ViewController.xib */; };
-		B2CF2D361534B7820059034E /* RSSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D341534B7820059034E /* RSSReader.m */; };
-		B2CF2D371534B7820059034E /* RSSReader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D351534B7820059034E /* RSSReader.xib */; };
+		B2CF2D361534B7820059034E /* CleaverReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D341534B7820059034E /* CleaverReader.m */; };
+		B2CF2D371534B7820059034E /* CleaverReader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D351534B7820059034E /* CleaverReader.xib */; };
 		B2CF2D3B1534B78C0059034E /* webViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D391534B78C0059034E /* webViewer.m */; };
 		B2CF2D3C1534B78C0059034E /* webViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D3A1534B78C0059034E /* webViewer.xib */; };
 		B2CF2D3E1534B9880059034E /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D3D1534B9880059034E /* button1.png */; };
@@ -51,22 +51,22 @@
 		4800C264155C23EC00282540 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		4800C266155C2F5D00282540 /* cleaverViewController.h */ = {isa = PBXFileReference; path = cleaverViewController.h; sourceTree = "<group>"; };
 		4800C267155C2F5D00282540 /* cleaverViewController.m */ = {isa = PBXFileReference; path = cleaverViewController.m; sourceTree = "<group>"; };
-		B2CF2D121534B7470059034E /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CF2D121534B7470059034E /* CleaverReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleaverReader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CF2D161534B7470059034E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2CF2D181534B7470059034E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B2CF2D1A1534B7470059034E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B2CF2D1E1534B7470059034E /* RSSReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSSReader-Info.plist"; sourceTree = "<group>"; };
+		B2CF2D1E1534B7470059034E /* CleaverReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CleaverReader-Info.plist"; sourceTree = "<group>"; };
 		B2CF2D201534B7470059034E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2CF2D221534B7470059034E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B2CF2D241534B7470059034E /* RSSReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReader-Prefix.pch"; sourceTree = "<group>"; };
+		B2CF2D241534B7470059034E /* CleaverReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CleaverReader-Prefix.pch"; sourceTree = "<group>"; };
 		B2CF2D251534B7470059034E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2CF2D261534B7470059034E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B2CF2D281534B7470059034E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B2CF2D291534B7470059034E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B2CF2D2C1534B7470059034E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		B2CF2D331534B7820059034E /* RSSReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSReader.h; sourceTree = "<group>"; };
-		B2CF2D341534B7820059034E /* RSSReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSReader.m; sourceTree = "<group>"; };
-		B2CF2D351534B7820059034E /* RSSReader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSSReader.xib; sourceTree = "<group>"; };
+		B2CF2D331534B7820059034E /* CleaverReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleaverReader.h; sourceTree = "<group>"; };
+		B2CF2D341534B7820059034E /* CleaverReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleaverReader.m; sourceTree = "<group>"; };
+		B2CF2D351534B7820059034E /* CleaverReader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CleaverReader.xib; sourceTree = "<group>"; };
 		B2CF2D381534B78C0059034E /* webViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewer.h; sourceTree = "<group>"; };
 		B2CF2D391534B78C0059034E /* webViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewer.m; sourceTree = "<group>"; };
 		B2CF2D3A1534B78C0059034E /* webViewer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = webViewer.xib; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 				4800C254155C21C100282540 /* MediaPlayer.framework */,
 				4800C250155C21AF00282540 /* AudioToolbox.framework */,
 				4800C251155C21AF00282540 /* AVFoundation.framework */,
-				B2CF2D1C1534B7470059034E /* RSSReader */,
+				B2CF2D1C1534B7470059034E /* CleaverReader */,
 				B2CF2D151534B7470059034E /* Frameworks */,
 				B2CF2D131534B7470059034E /* Products */,
 			);
@@ -119,7 +119,7 @@
 		B2CF2D131534B7470059034E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2CF2D121534B7470059034E /* RSSReader.app */,
+				B2CF2D121534B7470059034E /* CleaverReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B2CF2D1C1534B7470059034E /* RSSReader */ = {
+		B2CF2D1C1534B7470059034E /* CleaverReader */ = {
 			isa = PBXGroup;
 			children = (
 				4800C266155C2F5D00282540 /* cleaverViewController.h */,
@@ -146,16 +146,16 @@
 				B2CF2D381534B78C0059034E /* webViewer.h */,
 				B2CF2D391534B78C0059034E /* webViewer.m */,
 				B2CF2D3A1534B78C0059034E /* webViewer.xib */,
-				B2CF2D331534B7820059034E /* RSSReader.h */,
-				B2CF2D341534B7820059034E /* RSSReader.m */,
-				B2CF2D351534B7820059034E /* RSSReader.xib */,
+				B2CF2D331534B7820059034E /* CleaverReader.h */,
+				B2CF2D341534B7820059034E /* CleaverReader.m */,
+				B2CF2D351534B7820059034E /* CleaverReader.xib */,
 				B2CF2D261534B7470059034E /* AppDelegate.m */,
 				B2CF2D281534B7470059034E /* ViewController.h */,
 				B2CF2D291534B7470059034E /* ViewController.m */,
 				B2CF2D2B1534B7470059034E /* ViewController.xib */,
 				B2CF2D1D1534B7470059034E /* Supporting Files */,
 			);
-			path = RSSReader;
+			path = "CleaverReader";
 			sourceTree = "<group>";
 		};
 		B2CF2D1D1534B7470059034E /* Supporting Files */ = {
@@ -163,10 +163,10 @@
 			children = (
 				4800C247155C200400282540 /* Cordova.plist */,
 				B2CF2D3D1534B9880059034E /* button1.png */,
-				B2CF2D1E1534B7470059034E /* RSSReader-Info.plist */,
+				B2CF2D1E1534B7470059034E /* CleaverReader-Info.plist */,
 				B2CF2D1F1534B7470059034E /* InfoPlist.strings */,
 				B2CF2D221534B7470059034E /* main.m */,
-				B2CF2D241534B7470059034E /* RSSReader-Prefix.pch */,
+				B2CF2D241534B7470059034E /* CleaverReader-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2CF2D111534B7470059034E /* RSSReader */ = {
+		B2CF2D111534B7470059034E /* CleaverReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2CF2D301534B7470059034E /* Build configuration list for PBXNativeTarget "RSSReader" */;
+			buildConfigurationList = B2CF2D301534B7470059034E /* Build configuration list for PBXNativeTarget "CleaverReader" */;
 			buildPhases = (
 				B2CF2D0E1534B7470059034E /* Sources */,
 				B2CF2D0F1534B7470059034E /* Frameworks */,
@@ -186,9 +186,9 @@
 			);
 			dependencies = (
 			);
-			name = RSSReader;
-			productName = RSSReader;
-			productReference = B2CF2D121534B7470059034E /* RSSReader.app */;
+			name = "CleaverReader";
+			productName = "CleaverReader";
+			productReference = B2CF2D121534B7470059034E /* CleaverReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = B2CF2D0C1534B7470059034E /* Build configuration list for PBXProject "RSSReader" */;
+			buildConfigurationList = B2CF2D0C1534B7470059034E /* Build configuration list for PBXProject "CleaverReader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -211,7 +211,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2CF2D111534B7470059034E /* RSSReader */,
+				B2CF2D111534B7470059034E /* CleaverReader */,
 			);
 		};
 /* End PBXProject section */
@@ -223,7 +223,7 @@
 			files = (
 				B2CF2D211534B7470059034E /* InfoPlist.strings in Resources */,
 				B2CF2D2D1534B7470059034E /* ViewController.xib in Resources */,
-				B2CF2D371534B7820059034E /* RSSReader.xib in Resources */,
+				B2CF2D371534B7820059034E /* CleaverReader.xib in Resources */,
 				B2CF2D3C1534B78C0059034E /* webViewer.xib in Resources */,
 				B2CF2D3E1534B9880059034E /* button1.png in Resources */,
 				4800C248155C200400282540 /* Cordova.plist in Resources */,
@@ -241,7 +241,7 @@
 				B2CF2D231534B7470059034E /* main.m in Sources */,
 				B2CF2D271534B7470059034E /* AppDelegate.m in Sources */,
 				B2CF2D2A1534B7470059034E /* ViewController.m in Sources */,
-				B2CF2D361534B7820059034E /* RSSReader.m in Sources */,
+				B2CF2D361534B7820059034E /* CleaverReader.m in Sources */,
 				B2CF2D3B1534B78C0059034E /* webViewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,11 +321,11 @@
 					"\"$(SRCROOT)/../../../Shared/Cordova/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
-				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
+				GCC_PREFIX_HEADER = "CleaverReader/CleaverReader-Prefix.pch";
+				INFOPLIST_FILE = "CleaverReader/CleaverReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -338,11 +338,11 @@
 					"\"$(SRCROOT)/../../../Shared/Cordova/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
-				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
+				GCC_PREFIX_HEADER = "CleaverReader/CleaverReader-Prefix.pch";
+				INFOPLIST_FILE = "CleaverReader/CleaverReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2CF2D0C1534B7470059034E /* Build configuration list for PBXProject "RSSReader" */ = {
+		B2CF2D0C1534B7470059034E /* Build configuration list for PBXProject "CleaverReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2CF2D2E1534B7470059034E /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2CF2D301534B7470059034E /* Build configuration list for PBXNativeTarget "RSSReader" */ = {
+		B2CF2D301534B7470059034E /* Build configuration list for PBXNativeTarget "CleaverReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2CF2D311534B7470059034E /* Debug */,
