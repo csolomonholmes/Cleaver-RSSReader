@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4800C248155C200400282540 /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4800C247155C200400282540 /* Cordova.plist */; };
+		4800C24B155C205D00282540 /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C24A155C205D00282540 /* Cordova.framework */; };
+		4800C24E155C219200282540 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C24C155C219200282540 /* AddressBook.framework */; };
+		4800C24F155C219200282540 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C24D155C219200282540 /* AddressBookUI.framework */; };
+		4800C252155C21AF00282540 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C250155C21AF00282540 /* AudioToolbox.framework */; };
+		4800C253155C21AF00282540 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C251155C21AF00282540 /* AVFoundation.framework */; };
+		4800C255155C21C100282540 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C254155C21C100282540 /* MediaPlayer.framework */; };
+		4800C257155C21CA00282540 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C256155C21CA00282540 /* QuartzCore.framework */; };
+		4800C259155C21D300282540 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C258155C21D300282540 /* SystemConfiguration.framework */; };
+		4800C25B155C21DA00282540 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C25A155C21DA00282540 /* MobileCoreServices.framework */; };
+		4800C25D155C21E600282540 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C25C155C21E600282540 /* CoreMedia.framework */; };
+		4800C25F155C21FF00282540 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4800C25E155C21FF00282540 /* CoreLocation.framework */; };
+		4800C265155C23EC00282540 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 4800C264155C23EC00282540 /* www */; };
+		B2CF2D171534B7470059034E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF2D161534B7470059034E /* UIKit.framework */; };
+		B2CF2D191534B7470059034E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF2D181534B7470059034E /* Foundation.framework */; };
+		B2CF2D1B1534B7470059034E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CF2D1A1534B7470059034E /* CoreGraphics.framework */; };
+		B2CF2D211534B7470059034E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D1F1534B7470059034E /* InfoPlist.strings */; };
+		B2CF2D231534B7470059034E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D221534B7470059034E /* main.m */; };
+		B2CF2D271534B7470059034E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D261534B7470059034E /* AppDelegate.m */; };
+		B2CF2D2A1534B7470059034E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D291534B7470059034E /* ViewController.m */; };
+		B2CF2D2D1534B7470059034E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D2B1534B7470059034E /* ViewController.xib */; };
+		B2CF2D361534B7820059034E /* RSSReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D341534B7820059034E /* RSSReader.m */; };
+		B2CF2D371534B7820059034E /* RSSReader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D351534B7820059034E /* RSSReader.xib */; };
+		B2CF2D3B1534B78C0059034E /* webViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D391534B78C0059034E /* webViewer.m */; };
+		B2CF2D3C1534B78C0059034E /* webViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D3A1534B78C0059034E /* webViewer.xib */; };
+		B2CF2D3E1534B9880059034E /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D3D1534B9880059034E /* button1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4800C247155C200400282540 /* Cordova.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
+		4800C24A155C205D00282540 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = ../../../Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<group>"; };
+		4800C24C155C219200282540 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4800C24D155C219200282540 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		4800C250155C21AF00282540 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4800C251155C21AF00282540 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4800C254155C21C100282540 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4800C256155C21CA00282540 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4800C258155C21D300282540 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4800C25A155C21DA00282540 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4800C25C155C21E600282540 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4800C25E155C21FF00282540 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4800C264155C23EC00282540 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		B2CF2D121534B7470059034E /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CF2D161534B7470059034E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2CF2D181534B7470059034E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2CF2D1A1534B7470059034E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2CF2D1E1534B7470059034E /* RSSReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSSReader-Info.plist"; sourceTree = "<group>"; };
+		B2CF2D201534B7470059034E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2CF2D221534B7470059034E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2CF2D241534B7470059034E /* RSSReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReader-Prefix.pch"; sourceTree = "<group>"; };
+		B2CF2D251534B7470059034E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2CF2D261534B7470059034E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2CF2D281534B7470059034E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2CF2D291534B7470059034E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2CF2D2C1534B7470059034E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B2CF2D331534B7820059034E /* RSSReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSReader.h; sourceTree = "<group>"; };
+		B2CF2D341534B7820059034E /* RSSReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSReader.m; sourceTree = "<group>"; };
+		B2CF2D351534B7820059034E /* RSSReader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSSReader.xib; sourceTree = "<group>"; };
+		B2CF2D381534B78C0059034E /* webViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewer.h; sourceTree = "<group>"; };
+		B2CF2D391534B78C0059034E /* webViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewer.m; sourceTree = "<group>"; };
+		B2CF2D3A1534B78C0059034E /* webViewer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = webViewer.xib; sourceTree = "<group>"; };
+		B2CF2D3D1534B9880059034E /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2CF2D0F1534B7470059034E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4800C25F155C21FF00282540 /* CoreLocation.framework in Frameworks */,
+				4800C25D155C21E600282540 /* CoreMedia.framework in Frameworks */,
+				4800C25B155C21DA00282540 /* MobileCoreServices.framework in Frameworks */,
+				4800C259155C21D300282540 /* SystemConfiguration.framework in Frameworks */,
+				4800C257155C21CA00282540 /* QuartzCore.framework in Frameworks */,
+				4800C255155C21C100282540 /* MediaPlayer.framework in Frameworks */,
+				4800C252155C21AF00282540 /* AudioToolbox.framework in Frameworks */,
+				4800C253155C21AF00282540 /* AVFoundation.framework in Frameworks */,
+				4800C24E155C219200282540 /* AddressBook.framework in Frameworks */,
+				4800C24F155C219200282540 /* AddressBookUI.framework in Frameworks */,
+				B2CF2D171534B7470059034E /* UIKit.framework in Frameworks */,
+				B2CF2D191534B7470059034E /* Foundation.framework in Frameworks */,
+				B2CF2D1B1534B7470059034E /* CoreGraphics.framework in Frameworks */,
+				4800C24B155C205D00282540 /* Cordova.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2CF2D071534B7470059034E = {
+			isa = PBXGroup;
+			children = (
+				4800C264155C23EC00282540 /* www */,
+				4800C25E155C21FF00282540 /* CoreLocation.framework */,
+				4800C25C155C21E600282540 /* CoreMedia.framework */,
+				4800C25A155C21DA00282540 /* MobileCoreServices.framework */,
+				4800C258155C21D300282540 /* SystemConfiguration.framework */,
+				4800C256155C21CA00282540 /* QuartzCore.framework */,
+				4800C254155C21C100282540 /* MediaPlayer.framework */,
+				4800C250155C21AF00282540 /* AudioToolbox.framework */,
+				4800C251155C21AF00282540 /* AVFoundation.framework */,
+				B2CF2D1C1534B7470059034E /* RSSReader */,
+				B2CF2D151534B7470059034E /* Frameworks */,
+				B2CF2D131534B7470059034E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2CF2D131534B7470059034E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2CF2D121534B7470059034E /* RSSReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2CF2D151534B7470059034E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4800C24C155C219200282540 /* AddressBook.framework */,
+				4800C24D155C219200282540 /* AddressBookUI.framework */,
+				4800C24A155C205D00282540 /* Cordova.framework */,
+				B2CF2D161534B7470059034E /* UIKit.framework */,
+				B2CF2D181534B7470059034E /* Foundation.framework */,
+				B2CF2D1A1534B7470059034E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2CF2D1C1534B7470059034E /* RSSReader */ = {
+			isa = PBXGroup;
+			children = (
+				B2CF2D251534B7470059034E /* AppDelegate.h */,
+				B2CF2D381534B78C0059034E /* webViewer.h */,
+				B2CF2D391534B78C0059034E /* webViewer.m */,
+				B2CF2D3A1534B78C0059034E /* webViewer.xib */,
+				B2CF2D331534B7820059034E /* RSSReader.h */,
+				B2CF2D341534B7820059034E /* RSSReader.m */,
+				B2CF2D351534B7820059034E /* RSSReader.xib */,
+				B2CF2D261534B7470059034E /* AppDelegate.m */,
+				B2CF2D281534B7470059034E /* ViewController.h */,
+				B2CF2D291534B7470059034E /* ViewController.m */,
+				B2CF2D2B1534B7470059034E /* ViewController.xib */,
+				B2CF2D1D1534B7470059034E /* Supporting Files */,
+			);
+			path = RSSReader;
+			sourceTree = "<group>";
+		};
+		B2CF2D1D1534B7470059034E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4800C247155C200400282540 /* Cordova.plist */,
+				B2CF2D3D1534B9880059034E /* button1.png */,
+				B2CF2D1E1534B7470059034E /* RSSReader-Info.plist */,
+				B2CF2D1F1534B7470059034E /* InfoPlist.strings */,
+				B2CF2D221534B7470059034E /* main.m */,
+				B2CF2D241534B7470059034E /* RSSReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2CF2D111534B7470059034E /* RSSReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2CF2D301534B7470059034E /* Build configuration list for PBXNativeTarget "RSSReader" */;
+			buildPhases = (
+				B2CF2D0E1534B7470059034E /* Sources */,
+				B2CF2D0F1534B7470059034E /* Frameworks */,
+				B2CF2D101534B7470059034E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSReader;
+			productName = RSSReader;
+			productReference = B2CF2D121534B7470059034E /* RSSReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2CF2D091534B7470059034E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B2CF2D0C1534B7470059034E /* Build configuration list for PBXProject "RSSReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2CF2D071534B7470059034E;
+			productRefGroup = B2CF2D131534B7470059034E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2CF2D111534B7470059034E /* RSSReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2CF2D101534B7470059034E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CF2D211534B7470059034E /* InfoPlist.strings in Resources */,
+				B2CF2D2D1534B7470059034E /* ViewController.xib in Resources */,
+				B2CF2D371534B7820059034E /* RSSReader.xib in Resources */,
+				B2CF2D3C1534B78C0059034E /* webViewer.xib in Resources */,
+				B2CF2D3E1534B9880059034E /* button1.png in Resources */,
+				4800C248155C200400282540 /* Cordova.plist in Resources */,
+				4800C265155C23EC00282540 /* www in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2CF2D0E1534B7470059034E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CF2D231534B7470059034E /* main.m in Sources */,
+				B2CF2D271534B7470059034E /* AppDelegate.m in Sources */,
+				B2CF2D2A1534B7470059034E /* ViewController.m in Sources */,
+				B2CF2D361534B7820059034E /* RSSReader.m in Sources */,
+				B2CF2D3B1534B78C0059034E /* webViewer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2CF2D1F1534B7470059034E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2CF2D201534B7470059034E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2CF2D2B1534B7470059034E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2CF2D2C1534B7470059034E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2CF2D2E1534B7470059034E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2CF2D2F1534B7470059034E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2CF2D311534B7470059034E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Shared/Cordova/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
+				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2CF2D321534B7470059034E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Shared/Cordova/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
+				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2CF2D0C1534B7470059034E /* Build configuration list for PBXProject "RSSReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CF2D2E1534B7470059034E /* Debug */,
+				B2CF2D2F1534B7470059034E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2CF2D301534B7470059034E /* Build configuration list for PBXNativeTarget "RSSReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2CF2D311534B7470059034E /* Debug */,
+				B2CF2D321534B7470059034E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2CF2D091534B7470059034E /* Project object */;
+}
