@@ -8,6 +8,27 @@ https://github.com/RandyMcMillan/Cleaver-RSSReader
 REFERENCE: [Use Cordova as a Component](https://github.com/apache/incubator-cordova-ios/blob/master/guides/How%20to%20Use%20Cordova%20as%20a%20Component.md) in the [Cordova (iOS) Guides
 ](https://github.com/apache/incubator-cordova-ios/tree/master/guides)
 
+
+![image](https://github.com/RandyMcMillan/Cleaver-RSSReader/raw/master/1.png)
+
+
+![image](https://github.com/RandyMcMillan/Cleaver-RSSReader/raw/master/2.png)
+
+
+
+![image](https://github.com/RandyMcMillan/Cleaver-RSSReader/raw/master/3.png)
+
+
+
+![image](https://github.com/RandyMcMillan/Cleaver-RSSReader/raw/master/4.png)
+
+
+
+![image](https://github.com/RandyMcMillan/Cleaver-RSSReader/raw/master/5.png)
+
+
+
+
 The MIT License
 
 Copyright © Randy McMillan 2012
