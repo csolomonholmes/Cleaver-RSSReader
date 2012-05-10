@@ -11,7 +11,7 @@
 
 
 @implementation RSSReader
-@synthesize hasImages,path;
+@synthesize hasImages,path,activityView,newsTable;
 
 -(IBAction) back:(id)sender{
 	

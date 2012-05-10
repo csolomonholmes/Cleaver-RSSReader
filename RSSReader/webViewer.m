@@ -11,7 +11,7 @@
 
 @implementation webViewer
 
-@synthesize webView,storyLink;
+@synthesize webView,storyLink,activityView;
 
 -(IBAction) back:(id)sender{
 	

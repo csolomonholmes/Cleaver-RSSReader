@@ -19,23 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    
-    //Cleaver
-    CDVViewController* cleaverViewController = [CDVViewController new];
-    cleaverViewController.wwwFolderName = @"www";
-    cleaverViewController.startPage = @"index.html";
-    cleaverViewController.view.frame = CGRectMake(0, 0, 320, 480);
-    //Cleaver
-    
-    
-    
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
-    
-    //[self.window addSubview:cleaverViewController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

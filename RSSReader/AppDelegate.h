@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Cordova/CDVViewController.h>
 @class ViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>

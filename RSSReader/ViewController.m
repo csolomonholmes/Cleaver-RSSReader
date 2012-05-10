@@ -8,8 +8,7 @@
 
 #import "ViewController.h"
 #import "RSSReader.h"
-#import <Cordova/CDVViewController.h>
-
+#import "cleaverViewController.h"
 @interface ViewController (){
     
     NSString *NewsPage;
@@ -49,14 +48,30 @@
 
 
 -(IBAction)openCleaverView:(id)sender{
-    
-    
+        
     CDVViewController* cleaverViewController = [CDVViewController new];
     cleaverViewController.wwwFolderName = @"www";
     cleaverViewController.startPage = @"index.html";
-    cleaverViewController.view.frame = CGRectMake(0, 0, 320, 480);    
+    
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button addTarget:self 
+               action:@selector(closeCleaverView:)
+     forControlEvents:UIControlEventTouchUpInside];
+    [button setTitle:@"Show View" forState:UIControlStateNormal];
+    button.frame = CGRectMake(80.0, 210.0, 160.0, 40.0);
+    [cleaverViewController.view addSubview:button];
+    
+    
     [self presentModalViewController:cleaverViewController animated:YES];
-     
+ 
+}
+
+-(void)closeCleaverView:(id)sender{
+
+
+    NSLog(@"closeCleaverView");
+
 }
 
 
@@ -77,7 +92,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;//(interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
 @end

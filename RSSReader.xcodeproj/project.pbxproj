@@ -49,6 +49,8 @@
 		4800C25C155C21E600282540 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4800C25E155C21FF00282540 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4800C264155C23EC00282540 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		4800C266155C2F5D00282540 /* cleaverViewController.h */ = {isa = PBXFileReference; path = cleaverViewController.h; sourceTree = "<group>"; };
+		4800C267155C2F5D00282540 /* cleaverViewController.m */ = {isa = PBXFileReference; path = cleaverViewController.m; sourceTree = "<group>"; };
 		B2CF2D121534B7470059034E /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CF2D161534B7470059034E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2CF2D181534B7470059034E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -138,6 +140,8 @@
 		B2CF2D1C1534B7470059034E /* RSSReader */ = {
 			isa = PBXGroup;
 			children = (
+				4800C266155C2F5D00282540 /* cleaverViewController.h */,
+				4800C267155C2F5D00282540 /* cleaverViewController.m */,
 				B2CF2D251534B7470059034E /* AppDelegate.h */,
 				B2CF2D381534B78C0059034E /* webViewer.h */,
 				B2CF2D391534B78C0059034E /* webViewer.m */,
@@ -319,7 +323,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
 				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -334,7 +340,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
 				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
