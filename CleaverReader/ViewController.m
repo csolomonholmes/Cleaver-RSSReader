@@ -62,13 +62,16 @@
     cleaverViewController.wwwFolderName = @"www";
     cleaverViewController.startPage = @"index.html";
     
-    
+    CGRect viewBounds = [[UIScreen mainScreen] bounds];
+    int x = 100;//viewBounds.size.width * .5;
+    int y = viewBounds.size.width * .5;
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button addTarget:self 
                action:@selector(closeCleaverView:)
      forControlEvents:UIControlEventTouchUpInside];
     [button setTitle:@"Close Cleaver View" forState:UIControlStateNormal];
-    button.frame = CGRectMake(80.0, 210.0, 160.0, 40.0);
+    button.frame = CGRectMake(x, y, 160.0, 40.0);
+    button.center = cleaverViewController.view.center ;
     [cleaverViewController.view addSubview:button];
     [self presentModalViewController:cleaverViewController animated:YES];
  
