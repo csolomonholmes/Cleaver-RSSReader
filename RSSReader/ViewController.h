@@ -13,5 +13,6 @@
 -(IBAction)openYahooFinance:(id)sender;
 -(IBAction)openWalterWilliams:(id)sender;
 -(IBAction)openCNN:(id)sender;
+-(IBAction)openCleaverView:(id)sender;
 
 @end

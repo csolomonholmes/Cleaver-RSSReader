@@ -34,7 +34,8 @@
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
-    [self.window addSubview:cleaverViewController.view];
+    
+    //[self.window addSubview:cleaverViewController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

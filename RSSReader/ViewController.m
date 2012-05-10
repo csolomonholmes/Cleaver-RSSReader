@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "RSSReader.h"
+#import <Cordova/CDVViewController.h>
 
 @interface ViewController (){
     
@@ -45,6 +46,19 @@
     [self presentModalViewController:storyList animated:YES];
 
 }
+
+
+-(IBAction)openCleaverView:(id)sender{
+    
+    
+    CDVViewController* cleaverViewController = [CDVViewController new];
+    cleaverViewController.wwwFolderName = @"www";
+    cleaverViewController.startPage = @"index.html";
+    cleaverViewController.view.frame = CGRectMake(0, 0, 320, 480);    
+    [self presentModalViewController:cleaverViewController animated:YES];
+     
+}
+
 
 
 - (void)viewDidLoad
