@@ -28,7 +28,15 @@
 @interface ViewController : UIViewController
 
 -(IBAction)openPhoneGapFeed:(id)sender;
--(IBAction)openJiraIssueTracker:(id)sender;
+-(IBAction)openJiraIssueTrackerBlocker:(id)sender;
+
+-(IBAction)openJiraIssueTrackerCritical:(id)sender;
+-(IBAction)openJiraIssueTrackerMajor:(id)sender;
+
+-(IBAction)openJiraIssueTrackerMinor:(id)sender;
+
+-(IBAction)openJiraIssueTrackerTrivial:(id)sender;
+
 -(IBAction)openCleaverView:(id)sender;
 
 @end

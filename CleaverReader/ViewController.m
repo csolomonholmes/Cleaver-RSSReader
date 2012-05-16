@@ -45,14 +45,56 @@
     
 }
 
--(IBAction)openJiraIssueTracker:(id)sender{
+-(IBAction)openJiraIssueTrackerBlocker:(id)sender{
     
-    NewsPage = @"https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+%3D+CB+AND+resolution+%3D+Unresolved+AND+component+%3D+iOS+ORDER+BY+priority+DESC&tempMax=1000";
+    NewsPage = @"https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+%3D+CB+AND+resolution+%3D+Unresolved+AND+priority+%3D+Blocker+ORDER+BY+key+DESC&tempMax=1000";
     CleaverReader *storyList = [[CleaverReader alloc] initWithNibName:nil bundle:nil];
     storyList.path = NewsPage;
     [self presentModalViewController:storyList animated:YES];
     
 }
+
+
+-(IBAction)openJiraIssueTrackerCritical:(id)sender{
+    
+    NewsPage = @"https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+%3D+CB+AND+resolution+%3D+Unresolved+AND+priority+%3D+Critical+ORDER+BY+key+DESC&tempMax=1000";
+    CleaverReader *storyList = [[CleaverReader alloc] initWithNibName:nil bundle:nil];
+    storyList.path = NewsPage;
+    [self presentModalViewController:storyList animated:YES];
+    
+}
+
+
+-(IBAction)openJiraIssueTrackerMajor:(id)sender{
+    
+    NewsPage = @"https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+%3D+CB+AND+resolution+%3D+Unresolved+AND+priority+%3D+Major+ORDER+BY+key+DESC&tempMax=1000";
+    CleaverReader *storyList = [[CleaverReader alloc] initWithNibName:nil bundle:nil];
+    storyList.path = NewsPage;
+    [self presentModalViewController:storyList animated:YES];
+    
+}
+
+
+-(IBAction)openJiraIssueTrackerMinor:(id)sender{
+    
+    NewsPage = @"https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+%3D+CB+AND+resolution+%3D+Unresolved+AND+priority+%3D+Minor+ORDER+BY+key+DESC&tempMax=1000";
+    CleaverReader *storyList = [[CleaverReader alloc] initWithNibName:nil bundle:nil];
+    storyList.path = NewsPage;
+    [self presentModalViewController:storyList animated:YES];
+    
+}
+
+-(IBAction)openJiraIssueTrackerTrivial:(id)sender{
+    
+    NewsPage = @"https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=project+%3D+CB+AND+resolution+%3D+Unresolved+AND+priority+%3D+Trivial+ORDER+BY+key+DESC&tempMax=1000";
+    CleaverReader *storyList = [[CleaverReader alloc] initWithNibName:nil bundle:nil];
+    storyList.path = NewsPage;
+    [self presentModalViewController:storyList animated:YES];
+    
+}
+
+
+
 
 
 

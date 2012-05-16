@@ -44,7 +44,6 @@
 		B2CF2D371534B7820059034E /* CleaverReader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D351534B7820059034E /* CleaverReader.xib */; };
 		B2CF2D3B1534B78C0059034E /* webViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CF2D391534B78C0059034E /* webViewer.m */; };
 		B2CF2D3C1534B78C0059034E /* webViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D3A1534B78C0059034E /* webViewer.xib */; };
-		B2CF2D3E1534B9880059034E /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CF2D3D1534B9880059034E /* button1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,7 +93,6 @@
 		B2CF2D381534B78C0059034E /* webViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewer.h; sourceTree = "<group>"; };
 		B2CF2D391534B78C0059034E /* webViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewer.m; sourceTree = "<group>"; };
 		B2CF2D3A1534B78C0059034E /* webViewer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = webViewer.xib; sourceTree = "<group>"; };
-		B2CF2D3D1534B9880059034E /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,7 +196,6 @@
 			children = (
 				484FFDDE155C409000B9B695 /* button.png */,
 				4800C247155C200400282540 /* Cordova.plist */,
-				B2CF2D3D1534B9880059034E /* button1.png */,
 				B2CF2D1E1534B7470059034E /* CleaverReader-Info.plist */,
 				B2CF2D1F1534B7470059034E /* InfoPlist.strings */,
 				B2CF2D221534B7470059034E /* main.m */,
@@ -261,7 +258,6 @@
 				B2CF2D2D1534B7470059034E /* ViewController.xib in Resources */,
 				B2CF2D371534B7820059034E /* CleaverReader.xib in Resources */,
 				B2CF2D3C1534B78C0059034E /* webViewer.xib in Resources */,
-				B2CF2D3E1534B9880059034E /* button1.png in Resources */,
 				4800C248155C200400282540 /* Cordova.plist in Resources */,
 				4800C265155C23EC00282540 /* www in Resources */,
 				484FFDDF155C409000B9B695 /* button.png in Resources */,
